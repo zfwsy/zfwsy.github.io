@@ -1888,3 +1888,27 @@ mark {
   color: #855c0a;
   margin: 0 4px;
 }
+
+      .head, .info,
+      .no-cover,
+      .navigation a,
+      .footer-rss,
+      .item .item-image {
+        background-color: #2f9e44;
+      }
+
+      .item:hover h2,
+      .prev-post a:hover, .post-archives a:hover {
+        color: #2f9e44;
+      }
+
+      .tags .tag:hover {
+        border-color: #2f9e44;
+      }
+
+      .post-content a:hover {
+        color: #2f9e44;
+        border-color: #2f9e44;
+      }
+      
+    
