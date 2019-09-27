@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zfwsy.github.io</id>
-    <title>翼德欧巴</title>
-    <updated>2019-09-27T16:39:23.806Z</updated>
+    <title>滨湖明珠</title>
+    <updated>2019-09-27T16:44:25.008Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zfwsy.github.io"/>
     <link rel="self" href="https://zfwsy.github.io/atom.xml"/>
-    <subtitle>记录</subtitle>
+    <subtitle>我不羡慕在街头激情相拥的年轻男女，我羡慕在夕阳下并肩行走的老人。
+</subtitle>
     <logo>https://zfwsy.github.io/images/avatar.png</logo>
     <icon>https://zfwsy.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, 翼德欧巴</rights>
+    <rights>All rights reserved 2019, 滨湖明珠</rights>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://zfwsy.github.io/post/ui-yin-jin</id>
