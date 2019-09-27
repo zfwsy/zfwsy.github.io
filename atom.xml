@@ -2,13 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zfwsy.github.io</id>
     <title>翼德欧巴</title>
-    <updated>2019-09-27T14:36:59.300Z</updated>
+    <updated>2019-09-27T15:12:16.128Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zfwsy.github.io"/>
     <link rel="self" href="https://zfwsy.github.io/atom.xml"/>
+    <subtitle>记录</subtitle>
     <logo>https://zfwsy.github.io/images/avatar.png</logo>
     <icon>https://zfwsy.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 翼德欧巴</rights>
+    <entry>
+        <title type="html"><![CDATA[about]]></title>
+        <id>https://zfwsy.github.io/post/about</id>
+        <link href="https://zfwsy.github.io/post/about">
+        </link>
+        <updated>2019-09-27T15:09:38.000Z</updated>
+        <content type="html"><![CDATA[<p>关于额</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UI引进]]></title>
         <id>https://zfwsy.github.io/post/ui-yin-jin</id>
