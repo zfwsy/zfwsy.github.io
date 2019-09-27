@@ -2,13 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zfwsy.github.io</id>
     <title>翼德欧巴</title>
-    <updated>2019-09-27T13:38:30.786Z</updated>
+    <updated>2019-09-27T13:46:15.212Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zfwsy.github.io"/>
     <link rel="self" href="https://zfwsy.github.io/atom.xml"/>
     <logo>https://zfwsy.github.io/images/avatar.png</logo>
     <icon>https://zfwsy.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 翼德欧巴</rights>
+    <entry>
+        <title type="html"><![CDATA[iu'yi]]></title>
+        <id>https://zfwsy.github.io/post/iuyi</id>
+        <link href="https://zfwsy.github.io/post/iuyi">
+        </link>
+        <updated>2019-09-27T13:44:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>http://imglf6.nosdn.127.net/img/WnYxN3Rtd3IrYkZsMkk2cGxURVV3ei9JWndGeUVFVW9pYm1QeHJ5UmJQOUNJdzZyWTJiMW53PT0.jpg?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>http://imglf6.nosdn.127.net/img/WnYxN3Rtd3IrYkZsMkk2cGxURVV3ei9JWndGeUVFVW9pYm1QeHJ5UmJQOUNJdzZyWTJiMW53PT0.jpg?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg</p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zfwsy.github.io/post/hello-gridea</id>
