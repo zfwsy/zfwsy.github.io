@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zfwsy.github.io</id>
     <title>翼德欧巴</title>
-    <updated>2019-09-28T10:28:35.544Z</updated>
+    <updated>2019-09-28T11:13:08.869Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zfwsy.github.io"/>
     <link rel="self" href="https://zfwsy.github.io/atom.xml"/>
@@ -11,13 +11,6 @@
     <logo>https://zfwsy.github.io/images/avatar.png</logo>
     <icon>https://zfwsy.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 翼德欧巴</rights>
-    <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://zfwsy.github.io/post/ui-yin-jin</id>
-        <link href="https://zfwsy.github.io/post/ui-yin-jin">
-        </link>
-        <updated>2019-09-27T14:33:14.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zfwsy.github.io/post/hello-gridea</id>
