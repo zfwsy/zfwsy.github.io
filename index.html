@@ -1,140 +1,142 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>翼德欧巴</title>
 <meta name="description" content="记录生活的美好
-" />
-<link rel="shortcut icon" href="https://zfwsy.github.io/favicon.ico?v=1569682547824">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zfwsy.github.io/favicon.ico?v=1569683205139">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://zfwsy.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="翼德欧巴 - Atom Feed" href="https://zfwsy.github.io/atom.xml">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
   </head>
   <body>
-    <div class="homepage">
-      <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://zfwsy.github.io">
-        <span>翼德欧巴</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <nav class="info_nav">
-      
-        
-          <a href="https://zfwsy.github.io">首页</a>
-        
-      
-        
-          <a href="https://zfwsy.github.io/archives">归档</a>
-        
-      
-    </nav>
-  </div>
-</div>
-    </div>
-    <div class="info _site">
-      <div class="inner">
-        <div class="info_main">
-          
-            <h1 class="info_title"><a href="https://zfwsy.github.io">翼德欧巴</a></h1>
-            <h2 class="info_subtitle">记录生活的美好
-</h2>
-            <nav class="info_nav">
-              
-                
-                  <a href="https://zfwsy.github.io">首页</a>
-                
-              
-                
-                  <a href="https://zfwsy.github.io/archives">归档</a>
-                
-              
-            </nav>
-          
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="inner">
-        <div class="items">
-  
-    <div class="item Article">
-      
-        <a class="item-image js-cover" data-src="https://zfwsy.github.io/post-images/hello-gridea.png" href="https://zfwsy.github.io/post/hello-gridea" style="background-image:url('https://zfwsy.github.io/post-images/hello-gridea.png');"></a>
-      
-      <a class="item-main" href="https://zfwsy.github.io/post/hello-gridea">
-        <div class="item-meta">
-          <time datetime="2018-12-12 00:00:00">2018-12-12</time>
-        </div>
-        <h2>Hello Gridea</h2>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://zfwsy.github.io">
+        <img src="https://zfwsy.github.io/images/avatar.png?v=1569683205139" class="site-logo">
+        <h1 class="site-title">翼德欧巴</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
+    <div>
+      
+        
+          <a href="https://zfwsy.github.io" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://zfwsy.github.io/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://weibo.com/p/1005051669928174/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      记录生活的美好
+
+    </div>
+    <div class="site-footer">
+      Powered by <a href="翼德欧巴" target="_blank">翼德欧巴</a> | <a class="rss" href="https://zfwsy.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://zfwsy.github.io/post/hello-gridea">
+                  <h2 class="post-title">Hello Gridea</h2>
+                </a>
+                <div class="post-date">
+                  2018-12-12
+                </div>
+                <div class="post-abstract">
+                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://zfwsy.github.io/post/hello-gridea">
+                  <div class="feature-container" style="background-image: url('https://zfwsy.github.io/post-images/hello-gridea.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
   
 </div>
 
-        
-          <div class="navigation">
-  
-  
-</div>
-        
+        </div>
       </div>
     </div>
 
-    <footer class="footer">
-  <div class="main">
-    <a href="https://zfwsy.github.io">
-      <img class="avatar" src="https://zfwsy.github.io/images/avatar.png?v=1569682547824" alt="翼德欧巴">
-    </a>
-    <div class="footer__social">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      Powered by <a href="翼德欧巴" target="_blank">翼德欧巴</a>
-    </p>
-    <a class="footer-rss" href="https://zfwsy.github.io/atom.xml">RSS</a>
-  </div>
-</footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-<script src="https://zfwsy.github.io/media/prism.js"></script>
-<script>
-  Prism.highlightAll()
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
+
+
+
 
   </body>
 </html>
